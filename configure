@@ -197,8 +197,8 @@ function setup_overlays
 function fetch_closed
 {
 	local ildir="projects/illumos"
-	local cld="on-closed-bin.i386.tar.bz2"
-	local clnd="on-closed-bin-nd.i386.tar.bz2"
+	local cld="on-closed-bins.i386.tar.bz2"
+	local clnd="on-closed-bins-nd.i386.tar.bz2"
 	[[ -z "$ON_CLOSED_BINS_URL" ]] && fatal \
 	    "missing ON_CLOSED_BINS_URL from configure"
 	[[ -z "$ON_CLOSED_BINS_ND_URL" ]] && fatal \
